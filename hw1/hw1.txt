@@ -1,0 +1,191 @@
+A has offset 4
+B has offset 8
+RL of table R=27
+C has offset 4
+D has offset 8
+E has offset 12
+RL of table S=16
+
+Inserimento 100.000 record in R:
+READ:
+{R.tbl=33334 }
+WRITE:
+{simpledb.log=433331 R.tbl=33333 }
+
+Inserimento 80.000 record in S:
+READ:
+{S.tbl=13334 }
+WRITE:
+{simpledb.log=333333 S.tbl=13333 }
+
+Ho letto 1000 ennuple di R con 1<=A<=1000:
+READ:
+{R.tbl=334 }
+WRITE:
+{R.tbl=1 }
+
+Ho letto 1001 ennuple di R con 2000<=A<=3000:
+READ:
+{R.tbl=1001 }
+WRITE:
+{}
+
+Ho letto 101 ennuple di R con 2500<=A<=2600:
+READ:
+{R.tbl=867 }
+WRITE:
+{}
+
+Ho letto 1000 ennuple di S con 1<=D<=1000:
+READ:
+{S.tbl=167 }
+WRITE:
+{simpledb.log=1 S.tbl=1 }
+
+Le ennuple con D=E in S sono: 99
+READ:
+{S.tbl=13334 }
+WRITE:
+{}
+
+
+
+
+	
+Inserimento 100.000 record in R:
+READ:
+{R.tbl=33334 }
+WRITE:
+{simpledb.log=433331 R.tbl=33333 }
+
+Inserimento 80.000 record in S:
+READ:
+{S.tbl=13334 }
+WRITE:
+{simpledb.log=333333 S.tbl=13333 }
+
+Ho letto 1000 ennuple di R con 1<=A<=1000:
+READ:
+{R.tbl=334 }
+WRITE:
+{R.tbl=1 }
+
+Ho letto 1001 ennuple di R con 2000<=A<=3000:
+READ:
+{R.tbl=1001 }
+WRITE:
+{}
+
+Ho letto 101 ennuple di R con 2500<=A<=2600:
+READ:
+{R.tbl=867 }
+WRITE:
+{}
+
+Ho letto 1000 ennuple di S con 1<=D<=1000:
+READ:
+{S.tbl=167 }
+WRITE:
+{simpledb.log=1 S.tbl=1 }
+
+Le ennuple con D=E in S sono: 99
+READ:
+{S.tbl=13334 }
+WRITE:
+{}
+
+
+
+
+
+Inserimento 100.000 record in R:
+READ:
+{R.tbl=2703 }
+WRITE:
+{simpledb.log=29628 R.tbl=2453 }
+
+Inserimento 80.000 record in S:
+READ:
+{S.tbl=1291 }
+WRITE:
+{simpledb.log=21334 R.tbl=249 S.tbl=1042 }
+
+Ho letto 1000 ennuple di R con 1<=A<=1000:
+READ:
+{R.tbl=28 }
+WRITE:
+{S.tbl=28 }
+
+Ho letto 1001 ennuple di R con 2000<=A<=3000:
+READ:
+{R.tbl=54 }
+WRITE:
+{S.tbl=54 }
+
+Ho letto 101 ennuple di R con 2500<=A<=2600:
+READ:
+{}
+WRITE:
+{}
+
+Ho letto 1000 ennuple di S con 1<=D<=1000:
+READ:
+{S.tbl=17 }
+WRITE:
+{S.tbl=17 }
+
+Le ennuple con D=E in S sono: 99
+READ:
+{S.tbl=1274 }
+WRITE:
+{simpledb.log=1 R.tbl=1 S.tbl=150 }
+
+
+
+
+
+
+
+
+Inserimento 100.000 record in R:
+READ:
+{R.tbl=5556 }
+WRITE:
+{simpledb.log=40000 }
+
+Inserimento 80.000 record in S:
+READ:
+{S.tbl=2581 }
+WRITE:
+{simpledb.log=42666 }
+
+Ho letto 1000 ennuple di R con 1<=A<=1000:
+READ:
+{}
+WRITE:
+{}
+
+Ho letto 1001 ennuple di R con 2000<=A<=3000:
+READ:
+{}
+WRITE:
+{}
+
+Ho letto 101 ennuple di R con 2500<=A<=2600:
+READ:
+{}
+WRITE:
+{}
+
+Ho letto 1000 ennuple di S con 1<=D<=1000:
+READ:
+{}
+WRITE:
+{}
+
+Le ennuple con D=E in S sono: 99
+READ:
+{}
+WRITE:
+{}
+
