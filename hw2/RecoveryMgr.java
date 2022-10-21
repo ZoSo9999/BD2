@@ -151,5 +151,7 @@ public class RecoveryMgr {
          else if (!finishedTxs.contains(rec.txNumber()))
             rec.undo(tx);
       }
+      while (!committed.empty())
+  		LogRecord.createLogRecord(committed.pop()).redo(tx);
    }
 }
