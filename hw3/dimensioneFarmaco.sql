@@ -1,6 +1,3 @@
-SET SEARCH_PATH TO "farmacie";
-DROP TABLE IF EXISTS KKVersioniFarmaci CASCADE; 
-
 CREATE TABLE KKVersioniFarmaci (
 KFarmaco serial primary key,
 Codice integer,
